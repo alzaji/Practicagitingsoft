@@ -1,7 +1,7 @@
 
 public class Jarra {
 
-	private int cantindad;
+	private int cantidad;
 	private int capacidad;
 
 	public Jarra(int capacidadinicial) {
@@ -16,6 +16,21 @@ public class Jarra {
 	}
 	
 	//metodos
+	
+	//ProgC Alberto Zamora (@alzaji)
+	public void llenaDesdeJarra(Jarra j){
+		
+		while((this.cantidad< this.capacidad) && (j.cantidad > 0)){
+			
+			this.cantidad++;
+			j.cantidad--;
+		}
+	}
+	public String toString(){
+		
+		return ("("+this.capacidad+","+this.cantidad+")");
+	}
+	
 	
 	public void metodoComunitario(){
 		
