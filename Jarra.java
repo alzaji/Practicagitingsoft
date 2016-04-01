@@ -1,7 +1,7 @@
 
 public class Jarra {
 
-	private int cantindad;
+	private int cantidad;
 	private int capacidad;
 
 	public Jarra(int capacidadinicial) {
@@ -14,8 +14,14 @@ public class Jarra {
 		this.capacidad = capacidadinicial;
 
 	}
+	//Carlos Pantoja Gomez (@CarlosPantoja), ProgA:
+	public int getCapacidad(){
+		return this.capacidad;
+	}
 	
-	//metodos
+	public int getCantidad(){
+		return this.cantindad;
+	}
 	
 	public void metodoComunitario(){
 		
