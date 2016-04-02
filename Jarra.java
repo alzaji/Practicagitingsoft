@@ -18,15 +18,15 @@ public class Jarra {
 	public int getCapacidad(){
 		return this.capacidad;
 	}
-	
+
 	public int getCantidad(){
-		return this.cantindad;
+		return this.cantidad;
 	}
-	
+
 	public void metodoComunitario(){
-		
+
 	//Comentario incluido para puebas
-		
+
 		System.out.println("Aqui escribimos todos");
 	}
 }
