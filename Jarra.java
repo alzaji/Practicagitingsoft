@@ -20,7 +20,7 @@ public class Jarra {
 	}
 	
 	public int getCantidad(){
-		return this.cantindad;
+		return this.cantidad;
 	}
 	
 	//Alvaro Casado Palomo (@DTHMemories), ProgB:
@@ -48,9 +48,9 @@ public class Jarra {
 	
 	
 	public void metodoComunitario(){
-		
+
 	//Comentario incluido para puebas
-		
+
 		System.out.println("Aqui escribimos todos");
 	}
 }
